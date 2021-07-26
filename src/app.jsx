@@ -1,7 +1,10 @@
 import "./app.css";
+import Membership from "./components/membership";
 
 function App() {
-  return <h1>Hello bro:)</h1>;
+  return (
+    <Membership />
+  );
 }
 
 export default App;
