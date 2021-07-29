@@ -1,9 +1,11 @@
+import React from 'react';
 import "./app.css";
-import Membership from "./components/membership";
+import Signup from './components/membership/signup';
+
 
 function App() {
   return (
-    <Membership />
+    <Signup />
   );
 }
 
