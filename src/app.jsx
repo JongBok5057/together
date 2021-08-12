@@ -1,11 +1,12 @@
-import React from 'react';
-import "./app.css";
-import Signup from './components/membership/signup';
-
+import React from "react";
+import styles from "./app.module.css";
+import Login from "./components/login/login";
 
 function App() {
   return (
-    <Signup />
+    <div className={styles.app}>
+      <Login />;
+    </div>
   );
 }
 
