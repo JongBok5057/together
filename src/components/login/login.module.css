@@ -1,12 +1,14 @@
 @value makerGreen, makerLightPink, makerWhite from '../../common/colors.css';
 
 .login {
-  width: 100em;
+  width: 30em;
+  height: 30em;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: makerWhite;
+  border-radius: 22px;
 }
 
 .list {
@@ -14,5 +16,57 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 0.5em;
+  padding: 0.5rem;
+}
+.input {
+  width: 90%;
+  height: 2.5em;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2rem solid makerGreen;
+  outline: 0;
+  border-radius: 20px;
+}
+.item {
+  margin-bottom: 0.5em;
+}
+
+.login_button {
+  width: 90%;
+  height: 2.5em;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2rem solid makerGreen;
+  outline: 0;
+}
+
+.id_button {
+  width: 58%;
+  height: 2.5em;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2rem solid makerGreen;
+  outline: 0;
+  margin-right: 0.5em;
+}
+
+.signup_button {
+  width: 30%;
+  height: 2.5em;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2rem solid makerGreen;
+  outline: 0;
+}
+
+.id .button:hover {
+  background-color: makerLightPink;
 }

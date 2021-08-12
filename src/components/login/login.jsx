@@ -13,7 +13,7 @@ const Login = (props) => {
           <li className={styles.item}>
             <input className={styles.input} type="text" placeholder="아이디" />
           </li>
-          <li>
+          <li className={styles.item}>
             <input
               className={styles.input}
               type="password"
@@ -21,8 +21,16 @@ const Login = (props) => {
             />
           </li>
           <li className={styles.item}>
-            <button className={styles.button} onClick={onLogin}>
+            <button className={styles.login_button} onClick={onLogin}>
               로그인
+            </button>
+          </li>
+          <li className={styles.item}>
+            <button className={styles.id_button} onClick={onLogin}>
+              아이디/비번찾기
+            </button>
+            <button className={styles.signup_button} onClick={onLogin}>
+              회원가입
             </button>
           </li>
         </ul>
