@@ -1,4 +1,4 @@
-@value makerGreen, makerLightPink, makerWhite from '../../common/colors.css';
+@value makerGreen, makerLightPink,makerBlack, makerWhite from '../../common/colors.css';
 
 .login {
   width: 30em;
@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: makerWhite;
-  border-radius: 22px;
 }
 
 .list {
@@ -25,7 +24,7 @@
   border-radius: 1.2rem;
   background-color: transparent;
   cursor: pointer;
-  border: 0.2rem solid makerGreen;
+  border: 0.2rem solid makerBlack;
   outline: 0;
   border-radius: 20px;
   box-shadow: 5px 5px 15px -5px;
@@ -41,7 +40,7 @@
   border-radius: 1.2rem;
   background-color: transparent;
   cursor: pointer;
-  border: 0.2rem solid makerGreen;
+  border: 0.2rem solid makerBlack;
   outline: 0;
   box-shadow: 5px 5px 15px -5px;
 }
@@ -53,7 +52,7 @@
   border-radius: 1.2rem;
   background-color: transparent;
   cursor: pointer;
-  border: 0.2rem solid makerGreen;
+  border: 0.2rem solid makerBlack;
   outline: 0;
   margin-right: 0.5em;
   box-shadow: 5px 5px 15px -5px;
@@ -66,7 +65,7 @@
   border-radius: 1.2rem;
   background-color: transparent;
   cursor: pointer;
-  border: 0.2rem solid makerGreen;
+  border: 0.2rem solid makerBlack;
   outline: 0;
   box-shadow: 5px 5px 15px -5px;
 }
