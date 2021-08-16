@@ -8,7 +8,7 @@ const Login = (props) => {
   return (
     <section className={styles.login}>
       <Header />
-      <div>
+      <section>
         <ul className={styles.list}>
           <li className={styles.item}>
             <input className={styles.input} type="text" placeholder="아이디" />
@@ -27,14 +27,17 @@ const Login = (props) => {
           </li>
           <li className={styles.item}>
             <button className={styles.id_button} onClick={onLogin}>
-              아이디/비번찾기
+              아이디찾기
+            </button>
+            <button className={styles.pw_button} onClick={onLogin}>
+              비밀번호찾기
             </button>
             <button className={styles.signup_button} onClick={onLogin}>
               회원가입
             </button>
           </li>
         </ul>
-      </div>
+      </section>
       <Footer />
     </section>
   );

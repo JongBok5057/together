@@ -5,27 +5,30 @@ import styles from "./signup.module.css";
 
 const Signup = () => {
   return (
-    <section className={styles.wrap}>
+    <section className={styles.signup}>
       <Header />
       <section>
         <ul className={styles.list}>
-          <li>
-            <div>아이디</div>{" "}
-            <span>
-              <button className={styles.check_button}>중복확인</button>
-            </span>
-            <input type="text" placeholder="아이디를 입력하세요." />
+          <li className={styles.li_box}>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아이디</div>
+            <input
+              className={styles.check_input}
+              type="text"
+              placeholder="아이디를 입력하세요."
+            />
+            &nbsp;
+            <button className={styles.check_button}>중복확인</button>
           </li>
           <li>
-            <div>비밀번호</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비밀번호</div>
             <input type="password" placeholder="비밀번호를 입력하세요." />
           </li>
           <li>
-            <div>이메일</div>
-            <input type="text" placeholder="아매일을 입력하세요." />
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이메일</div>
+            <input type="text" placeholder="이메일을 입력하세요." />
           </li>
           <li>
-            <div>닉네임</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;닉네임</div>
             <input type="text" placeholder="닉네임을 입력하세요." />
           </li>
           <li>

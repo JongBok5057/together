@@ -6,6 +6,8 @@
   padding: 0.5em;
   background-color: makerGreen;
   position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .title {

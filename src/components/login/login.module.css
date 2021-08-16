@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: makerWhite;
+  border-radius: 22px;
 }
 
 .list {
@@ -33,6 +34,9 @@
   margin-bottom: 0.5em;
 }
 
+.button_item {
+  margin-bottom: 0.5em;
+}
 .login_button {
   width: 90%;
   height: 2.5em;
@@ -46,7 +50,20 @@
 }
 
 .id_button {
-  width: 58%;
+  width: 29%;
+  height: 2.5em;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.2rem solid makerBlack;
+  outline: 0;
+  margin-right: 0.5em;
+  box-shadow: 5px 5px 15px -5px;
+}
+
+.pw_button {
+  width: 29%;
   height: 2.5em;
   font-size: 1.2rem;
   border-radius: 1.2rem;
@@ -59,7 +76,7 @@
 }
 
 .signup_button {
-  width: 30%;
+  width: 29%;
   height: 2.5em;
   font-size: 1.2rem;
   border-radius: 1.2rem;
@@ -77,5 +94,9 @@
   background-color: makerLightPink;
 }
 .signup_button:hover {
+  background-color: makerLightPink;
+}
+
+.pw_button:hover {
   background-color: makerLightPink;
 }

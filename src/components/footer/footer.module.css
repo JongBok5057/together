@@ -5,6 +5,8 @@
   background-color: makerGreen;
   text-align: center;
   position: relative;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .title {

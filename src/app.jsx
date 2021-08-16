@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./app.module.css";
 import Login from "./components/login/login";
+import Signup from "./components/signup/signup";
 
 function App() {
   return (
