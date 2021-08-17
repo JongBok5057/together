@@ -6,8 +6,6 @@
   padding: 0.5em;
   background-color: makerGreen;
   position: relative;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .title {
@@ -16,6 +14,32 @@
 }
 
 .logout {
+  position: absolute;
+  right: 3em;
+  top: 1em;
+  padding: 0.8em;
+  border-radius: 20%;
+  background-color: makerBlack;
+  color: makerWhite;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.login {
+  position: absolute;
+  right: 8em;
+  top: 1em;
+  padding: 0.8em;
+  border-radius: 20%;
+  background-color: makerBlack;
+  color: makerWhite;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.writing {
   position: absolute;
   right: 3em;
   top: 1em;

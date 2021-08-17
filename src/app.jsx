@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./app.module.css";
-import Login from "./components/login/login";
-import Signup from "./components/signup/signup";
+import Board from "./components/board/board";
 
 function App() {
   return (
     <div className={styles.app}>
-      <Login />
+      <Board />
     </div>
   );
 }
