@@ -12,11 +12,11 @@ const FindPw = () => {
                 <ul className={styles.list}>
                     <li>
                         <div>아이디</div>
-                        <input type="text" placeholder="아이디를 입력하세요."/>
+                        <input className={styles.findpw} type="text" placeholder="아이디를 입력하세요."/>
                     </li>
                     <li>
                         <div>비밀번호 변경</div>
-                        <input type="text" placeholder="아이디를 입력하세요."/>
+                        <input className={styles.findpw} type="text" placeholder="아이디를 입력하세요."/>
                     </li>
                     <li>
                         <button>비밀번호 변경</button>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Board = () => {
+const Writeform = () => {
     return (
         <h1>게시판</h1>
     );
 }
 
-export default Board;
+export default Writeform;
